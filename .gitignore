@@ -1,0 +1,4 @@
+#fichier et repectiores a ignoree par git
+
+node_modules
+dist
