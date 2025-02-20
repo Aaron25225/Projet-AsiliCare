@@ -7,19 +7,10 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AddInvoiceAvoirForm: typeof import('./src/components/AddInvoiceAvoirForm.vue')['default']
     AddInvoiceForm: typeof import('./src/components/AddInvoiceForm.vue')['default']
     AddItemsForm: typeof import('./src/components/addItemsForm.vue')['default']
     AsiliNavBar: typeof import('./src/components/asiliNavBar.vue')['default']
-    copy: typeof import('./src/components/InvoiceDetails copy.vue')['default']
-    EditInvoiceForm: typeof import('./src/components/EditInvoiceForm.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    InvoiceAvoirPrinter: typeof import('./src/components/InvoiceAvoirPrinter.vue')['default']
-    InvoiceDetail: typeof import('./src/components/InvoiceDetail.vue')['default']
-    InvoiceDetails: typeof import('./src/components/InvoiceDetails.vue')['default']
-    InvoiceNormalisedPreview: typeof import('./src/components/invoiceNormalisedPreview.vue')['default']
-    InvoicePrinter: typeof import('./src/components/InvoicePrinter.vue')['default']
-    NavBar: typeof import('./src/components/navBar.vue')['default']
+    DashboardVendeur: typeof import('./src/components/DashboardVendeur.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     UpdateInvoiceForm: typeof import('./src/components/updateInvoiceForm.vue')['default']
