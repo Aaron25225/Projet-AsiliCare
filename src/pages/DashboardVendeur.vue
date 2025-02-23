@@ -109,7 +109,7 @@ export default {
       shopData: {
   shopLogo: '/src/assets/logo.png',
   shopName: 'Ma Boutique',
-  sellerName: 'Jean Dupont'
+  sellerName: 'Vendeur'
 },
      menuItems: [{ icon: 'mdi-home', text: 'Accueil' },
   { icon: 'mdi-cart', text: 'Produits' },

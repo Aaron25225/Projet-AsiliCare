@@ -120,17 +120,22 @@ export default {
 
       try {
         console.log("Utilisateur à enregistrer :", data);
-        const response = await axios.post("http://localhost:3001/users/register", data);
+        this.$router.push({
+             name: 'DashboardVendeur', params: { id: 2 } 
+  });
+
+
+    /*    const response = await axios.post("http://localhost:3001/users/register", data);
         console.log("Réponse de l'enregistrement :", response.data);
 
         this.newUser = response.data;
         console.log("Nouvel utilisateur enregistré:", this.newUser);
         console.log("ID du vendeur reçu :", this.newUser.TenantId);
-
-        if (this.newUser.typeCompte === 'Vendeur') {
+*/
+    /*    if (this.newUser.typeCompte === 'Vendeur') {
           this.$router.push({
              name: 'DashboardVendeur', params: { id: this.newUser.TenantId } 
-  });
+  });*/
 
 
     /* //    this.isVendeur = true;
@@ -139,11 +144,11 @@ export default {
          console.log("Vendeur data:", shopData);
          console.log("isVendeur :", this.isVendeur);
 */
-        } else {
+     /*   } else {
          // this.redirectUser(this.newUser.typeCompte);
           this.$router.push('/acheteur-dashboard');
 
-        }
+        }*/
 
       } catch (error) {
         console.error("Erreur lors de l'enregistrement de l'utilisateur :", error);

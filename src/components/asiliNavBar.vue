@@ -2,8 +2,8 @@
     <v-app-bar app color="white" flat>
       <!-- Logo et titre -->
       <v-app-bar-title>
-        <v-img src="/src/assets/leaf.png" alt="ASILI care" contain height="40" width="40" class="mr-2"></v-img>
-        <span class="font-weight-bold">ASILI care</span>
+        <v-img src="/src/assets/logo_asili_care.png" alt="ASILI care" contain height="40" width="40" class="mr-2"></v-img>
+      
       </v-app-bar-title>
   
       <!-- Menu de navigation -->

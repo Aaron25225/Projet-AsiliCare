@@ -98,8 +98,8 @@
       <v-container>
         <v-row>
           <v-col cols="12">
-            <p>© 2025 NunyaShop. Tous droits réservés.</p>
-            <p>Ce site et son contenu (textes, images, logos, produits et éléments graphiques) sont la propriété exclusive de NunyaShop ou de ses partenaires. Pour toute reproduction, distribution, demande d'autorisation ou d'information, veuillez nous contacter à info@nunyashop.com</p>
+            <p>© 2025 Asili Care. Tous droits réservés.</p>
+            <p>Ce site et son contenu (textes, images, logos, produits et éléments graphiques) sont la propriété exclusive d'Asili Care ou de ses partenaires. Pour toute reproduction, distribution, demande d'autorisation ou d'information, veuillez nous contacter à info@asilicare.com</p>
           </v-col>
         </v-row>
       </v-container>
@@ -151,7 +151,7 @@ export default {
   padding: 20px;
 }
 .left h1 span, .button-link a {
-  color: #3f51b5;
+  color: #eaeeec;
 }
 .serv .button-link a, .contact .button-link a {
   color: white;
